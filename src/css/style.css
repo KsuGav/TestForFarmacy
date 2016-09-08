@@ -2,7 +2,7 @@ body{
     background: url("../img/bg5.jpg");
     background-attachment: fixed;
     background-size: cover;
-    font-family: serif;
+    font-family: 'Cormorant Upright', serif;
 }
 header{
     position: fixed;
@@ -16,6 +16,9 @@ h5{
 h3{
     font-size: xx-large;
     font-weight: 600;
+}
+strong{
+    font-size: 100px;
 }
 .navbar{
     background: #555;
@@ -40,6 +43,9 @@ h3{
 #home h1,#home p{
     color: aliceblue;
     text-shadow: 0 0 10px black;
+}
+#home p{
+    font-size: x-large;
 }
 #contact{
     /*background: rgba(0,200,200,0.9);*/

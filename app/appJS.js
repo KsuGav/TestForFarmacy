@@ -47,9 +47,9 @@ $(document).ready(function() {
 
     //animate users images
     $('.thumbnail').bind('mouseenter',function(){
-        $(this).stop().animate({top:'-5px',opacity:1},100);
+        $(this).stop().animate({opacity:1},100);
     }).bind('mouseleave',function(){
-        $(this).stop().animate({top:'0px',opacity:0.7},100);
+        $(this).stop().animate({opacity:0.7},100);
     });
 
     //
